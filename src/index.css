@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply p-0 m-0 box-border;
+}
+body {
+  @apply bg-gray-100;
+}
+.container {
+  @apply flex w-[100vw] h-[100vh] bg-gray-100 items-center justify-center;
+}
+.menu-container {
+  @apply flex flex-col justify-center items-center font-serif mt-[70px];
+}
+.title-container {
+  @apply flex flex-col justify-center items-center font-serif mb-[20px];
+}
+
+.title-container div {
+  @apply bg-[#F59E0B] h-1 w-[160px];
+}
+.data-layout {
+  @apply grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3;
+}
+.data-container {
+  @apply mb-[20px] bg-white;
+}
+
+.btn-container {
+  @apply flex justify-around mb-[20px];
+}
+
+button {
+  @apply bg-[#F59E0B] text-white pl-2 pr-2 pt-1 pb-1 mr-3 rounded-md hover:bg-[#B45309] duration-500;
+}
+
+.price-container {
+  @apply flex capitalize justify-between m-2 mb-[20px];
+}
+
+.description {
+  @apply max-w-[24rem] font-thin text-gray-500 ml-2 mr-2 mb-1;
+}
