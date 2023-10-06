@@ -21,6 +21,9 @@ body {
 .title-container div {
   @apply bg-[#F59E0B] h-1 w-[160px];
 }
+.card {
+  @apply m-2;
+}
 .data-layout {
   @apply grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3;
 }
